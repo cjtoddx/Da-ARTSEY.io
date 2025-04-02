@@ -1,0 +1,207 @@
+{
+    "id": "01JQEJW00JJHF16Q8VG9YN0T38",
+    "name": "myboard",
+    "manufacturer": "none",
+    "description": "Orignally sextsy artsey but now this",
+    "tags": [],
+    "controller": "pi-pico",
+    "keyboardType": "normal",
+    "wiringMethod": "matrix",
+    "diodeDirection": "COL2ROW",
+    "rows": 4,
+    "cols": 7,
+    "pins": 0,
+    "rowPins": [
+        "29",
+        "28",
+        "27",
+        "26"
+    ],
+    "colPins": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+    ],
+    "directPins": [],
+    "encoders": [
+        {
+            "pad_a": "17",
+            "pad_b": "14"
+        }
+    ],
+    "layouts": [],
+    "keys": [
+        {
+            "x": 0,
+            "y": 0,
+            "r": -4,
+            "idx": 0
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "r": -4,
+            "idx": 1
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "r": -4,
+            "idx": 2
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "r": 2,
+            "idx": 3
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "r": -4,
+            "idx": 4
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "r": -4,
+            "idx": 5
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "r": -4,
+            "idx": 6
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "r": 1,
+            "idx": 7
+        },
+        {
+            "x": -2,
+            "y": 2.5,
+            "idx": 8
+        },
+        {
+            "x": -1,
+            "y": 2.5,
+            "idx": 9
+        },
+        {
+            "x": -1,
+            "y": 1.5,
+            "r": -1,
+            "idx": 10
+        },
+        {
+            "x": 0,
+            "y": 2.5,
+            "encoderIndex": 0
+        }
+    ],
+    "keymap": [
+        [
+            "KC.A",
+            "KC.R",
+            "KC.T",
+            "KC.S",
+            "KC.E",
+            "KC.Y",
+            "KC.I",
+            "KC.O",
+            "KC.RCTL",
+            "KC.SPC",
+            "KC.ENT",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS"
+        ]
+    ],
+    "encoderKeymap": [
+        [
+            [
+                "KC.TRNS",
+                "KC.TRNS"
+            ]
+        ]
+    ],
+    "layers": [
+        {
+            "name": "base layer"
+        }
+    ],
+    "split": false,
+    "splitPinA": "",
+    "splitPinB": "",
+    "splitSide": "left",
+    "vbusPin": "VBUS_SENSE",
+    "splitUsePio": true,
+    "splitFlip": false,
+    "splitUartFlip": false,
+    "coordMap": [
+        [
+            "003",
+            "002",
+            "001",
+            "000"
+        ],
+        [
+            "010",
+            "009",
+            "008",
+            "007"
+        ],
+        [
+            "020",
+            "018"
+        ],
+        [
+            "026"
+        ]
+    ],
+    "pinPrefix": "gp",
+    "coordMapSetup": false,
+    "rgbPin": "",
+    "rgbNumLeds": 0,
+    "rgbOptions": {
+        "animationMode": 0,
+        "hueDefault": 0,
+        "satDefault": 255,
+        "valDefault": 255,
+        "animationSpeed": 1,
+        "breatheCenter": 1,
+        "knightEffectLength": 3
+    },
+    "kbFeatures": [
+        "basic",
+        "serial",
+        "oneshot",
+        "tapdance",
+        "holdtap",
+        "mousekeys",
+        "combos",
+        "macros"
+    ],
+    "flashingMode": "automatic",
+    "lastEdited": "2025-04-02 05:13"
+}
